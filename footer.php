@@ -12,7 +12,7 @@
 ?>
 <footer class="py-5 container d-flex justify-content-between">
     <div class="d-flex flex-column align-items-baseline">
-        <img src="wp-content/themes/ss-test/assets/Image 1.png" alt="">
+        <img src="<?= get_theme_mod('ss_footer_logo') ?>" alt="">
         <a href="tel:<?= get_theme_mod('ss_phone_number') ?>" class="btn btn-outline-primary btn-lg py-2 px-5 mt-4">Contact</a>
     </div>
 
