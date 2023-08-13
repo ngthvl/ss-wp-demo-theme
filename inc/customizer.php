@@ -493,10 +493,10 @@ function my_register_additional_customizer_settings( $wp_customize ) {
     )));
 
     $wp_customize->add_setting('ss_footer_logo', array(
-        'default' => 'Sign Up for Our Newsletter',
+        'default' => '',
         'transport' => 'refresh',
     ));
-    $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ss_footer_logo', array(
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ss_footer_logo', array(
         'label' => __('Footer Logo', 'ss-test-theme-top-banner-text'),
         'section' => 'ss_footer_section',
         'settings' => 'ss_footer_logo',
