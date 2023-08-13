@@ -61,8 +61,8 @@ get_header();
             </div>
         </div>
 
-        <img src="wp-content/themes/ss-test/assets/blue angle.svg" alt="" class="img-fluid position-absolute blue-angle">
-        <img src="wp-content/themes/ss-test/assets/grey angle.svg" alt="" class="img-fluid position-absolute grey-angle">
+        <img src="<?= get_template_directory_uri() . '/assets/blue angle.svg'?>" alt="" class="img-fluid position-absolute blue-angle">
+        <img src="<?= get_template_directory_uri() . '/assets/grey angle.svg'?>" alt="" class="img-fluid position-absolute grey-angle">
     </div>
 </div>
 
@@ -149,8 +149,8 @@ get_header();
     <div class="row">
         <div class="offset-4 col-8 mt-3 position-relative p-5 pe-0 bg-offset-3">
             <div class="bg-primary background"></div>
-            <img src="wp-content/themes/ss-test/assets/blue angle.svg" alt="" class="img-fluid position-absolute blue-angle">
-            <img src="wp-content/themes/ss-test/assets/grey angle.svg" alt="" class="img-fluid position-absolute grey-angle">
+            <img src="<?= get_template_directory_uri() . '/assets/blue angle.svg'?>" alt="" class="img-fluid position-absolute blue-angle">
+            <img src="<?= get_template_directory_uri() . '/assets/grey angle.svg'?>" alt="" class="img-fluid position-absolute grey-angle">
         </div>
     </div>
     <div class="position-absolute content">
@@ -187,11 +187,11 @@ get_header();
     <div class="container position-relative mt-5 pt-5 me-0">
         <div class="row">
             <div class="col-8 offset-3">
-                <img class="img-fluid" src="wp-content/themes/ss-test/assets/Screen Shot 2022-10-10 at 1.34.32 PM.png" alt="">
+                <img class="img-fluid" src="<?= get_template_directory_uri() . '/assets/Screen Shot 2022-10-10 at 1.34.32 PM.png' ?>" alt="">
             </div>
         </div>
         <div class="position-absolute card-left p-4 pb-0">
-            <img src="wp-content/themes/ss-test/assets/blue angle.svg" alt="" class="img-fluid position-absolute blue-angle">
+            <img src="<?= get_template_directory_uri() . '/assets/blue angle.svg'?>" alt="" class="img-fluid position-absolute blue-angle">
             <div class="card bg-primary rounded-0">
                 <div class="card-body pt-5 px-4 text-white">
                     <h3><?= get_theme_mod('ss_our_locations_title') ?></h3>
@@ -252,8 +252,8 @@ get_header();
                 <a href="<?= get_theme_mod('ss_our_projects_btn_url') ?>" class="btn btn-outline-light btn-lb py-3 px-5 mt-4"><?= get_theme_mod('ss_our_projects_btn_lbl') ?></a>
             </div>
         </div>
-        <img src="wp-content/themes/ss-test/assets/blue angle.svg" alt="" class="img-fluid position-absolute blue-angle">
-        <img src="wp-content/themes/ss-test/assets/grey angle.svg" alt="" class="img-fluid position-absolute grey-angle">
+        <img src="<?= get_template_directory_uri() . '/assets/blue angle.svg'?>" alt="" class="img-fluid position-absolute blue-angle">
+        <img src="<?= get_template_directory_uri() . '/assets/grey angle.svg'?>" alt="" class="img-fluid position-absolute grey-angle">
     </div>
 </div>
 
