@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="170" viewBox="0 0 170 170">
+  <defs>
+    <filter id="Ellipse_2" x="0" y="0" width="170" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="right_arrow" data-name="right arrow" transform="translate(-1230 -3080)">
+    <g transform="matrix(1, 0, 0, 1, 1230, 3080)" filter="url(#Ellipse_2)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="40" cy="40" r="40" transform="translate(45 40)" fill="#fff"/>
+    </g>
+    <path id="Path_5" data-name="Path 5" d="M15.75-12.3a1.627,1.627,0,0,0,.492-1.2,1.627,1.627,0,0,0-.492-1.2L6.187-24.258a1.627,1.627,0,0,0-1.2-.492,1.627,1.627,0,0,0-1.2.492L2.25-22.641a1.627,1.627,0,0,0-.492,1.2,1.627,1.627,0,0,0,.492,1.2L9-13.5,2.25-6.75a1.627,1.627,0,0,0-.492,1.2,1.627,1.627,0,0,0,.492,1.2L3.8-2.742a1.627,1.627,0,0,0,1.2.492,1.627,1.627,0,0,0,1.2-.492Z" transform="translate(1306.242 3173.5)" fill="#004271"/>
+  </g>
+</svg>
